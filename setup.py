@@ -24,7 +24,7 @@ setup(
             'ldap3',
         ],
         'test': [
-            'django' if PY3 else 'django<1.7',
+            'django==1.8' if PY3 else 'django<1.7',
             'flake8',
             'ldap3',
             'mock',
