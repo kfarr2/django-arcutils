@@ -4,15 +4,10 @@
 
 ## Install
 
-    pip install -e git://github.com/PSU-OIT-ARC/django-arcutils.git#egg=django-arcutils
+    pip install -f http://cdn.research.pdx.edu/pypi/dist 'django-arcutils>=1.1.1,<2.0'
 
-with ldap
-
-    pip install git+https://github.com/PSU-OIT-ARC/django-arcutils.git#egg=django-arcutils[ldap]
-
-with testing
-
-    pip install git+https://github.com/PSU-OIT-ARC/django-arcutils.git#egg=django-arcutils[test]
+    # To setup arcutils in your project using the requirements.txt file, add the following line.
+    -f http://cdn.research.pdx.edu/pypi/dist
 
 Add to settings file:
 
